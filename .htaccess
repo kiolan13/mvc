@@ -1,0 +1,7 @@
+RewriteEngine on
+Options All -Indexes +FollowSymLinks
+RewriteRule ^([A-Za-z0-9-]+)$ index.php
+RewriteRule ^([A-Za-z0-9-]+)/([A-Za-z0-9-]+)$ index.php
+
+
+

@@ -1,0 +1,1 @@
+select b.id, b.name, b.text, b.author, a.id, a.name from book b left join authors a on b.author = a.id
